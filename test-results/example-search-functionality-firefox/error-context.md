@@ -1,0 +1,434 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - button "Search" [expanded] [ref=e2]:
+    - generic [ref=e3]:
+      - banner [ref=e4]:
+        - generic [ref=e5]:
+          - generic [ref=e6]:
+            - img [ref=e7]
+            - generic [ref=e9]: Search
+          - searchbox "Search" [active] [ref=e10]: test
+          - button "Clear the query" [ref=e11] [cursor=pointer]:
+            - img [ref=e12]
+      - generic [ref=e15]:
+        - generic [ref=e16]:
+          - generic [ref=e17]: Documentation
+          - listbox "Search" [ref=e18]:
+            - option "Playwright enables reliable end-to-end testing for modern web …" [selected] [ref=e19]:
+              - link "Playwright enables reliable end-to-end testing for modern web …" [ref=e20] [cursor=pointer]:
+                - /url: /
+                - generic [ref=e21]:
+                  - img [ref=e23]
+                  - generic [ref=e26]:
+                    - text: Playwright enables reliable end-to-end
+                    - mark [ref=e27]: test
+                    - text: ing for modern web …
+                  - img [ref=e29]
+        - generic [ref=e33]:
+          - generic [ref=e34]: Getting Started
+          - listbox "Search" [ref=e35]:
+            - option "Writing tests" [ref=e36]:
+              - link "Writing tests" [ref=e37] [cursor=pointer]:
+                - /url: /docs/writing-tests
+                - generic [ref=e38]:
+                  - img [ref=e40]
+                  - generic [ref=e43]:
+                    - text: Writing
+                    - mark [ref=e44]: test
+                    - text: s
+            - option "Running and debugging tests" [ref=e46]:
+              - link "Running and debugging tests" [ref=e47] [cursor=pointer]:
+                - /url: /docs/running-tests
+                - generic [ref=e48]:
+                  - img [ref=e50]
+                  - generic [ref=e53]:
+                    - text: Running and debugging
+                    - mark [ref=e54]: test
+                    - text: s
+            - option "Generating tests" [ref=e56]:
+              - link "Generating tests" [ref=e57] [cursor=pointer]:
+                - /url: /docs/codegen-intro
+                - generic [ref=e58]:
+                  - img [ref=e60]
+                  - generic [ref=e63]:
+                    - text: Generating
+                    - mark [ref=e64]: test
+                    - text: s
+        - generic [ref=e66]:
+          - generic [ref=e67]: Migration
+          - listbox "Search" [ref=e68]:
+            - option "Migrating from Testing Library" [ref=e69]:
+              - link "Migrating from Testing Library" [ref=e70] [cursor=pointer]:
+                - /url: /docs/testing-library
+                - generic [ref=e71]:
+                  - img [ref=e73]
+                  - generic [ref=e76]:
+                    - text: Migrating from
+                    - mark [ref=e77]: Test
+                    - text: ing Library
+        - generic [ref=e79]:
+          - generic [ref=e80]: Playwright Test
+          - listbox "Search" [ref=e81]:
+            - option "Parameterize tests" [ref=e82]:
+              - link "Parameterize tests" [ref=e83] [cursor=pointer]:
+                - /url: /docs/test-parameterize
+                - generic [ref=e84]:
+                  - img [ref=e86]
+                  - generic [ref=e89]:
+                    - text: Parameterize
+                    - mark [ref=e90]: test
+                    - text: s
+            - option "Playwright Test Agents" [ref=e92]:
+              - link "Playwright Test Agents" [ref=e93] [cursor=pointer]:
+                - /url: /docs/test-agents
+                - generic [ref=e94]:
+                  - img [ref=e96]
+                  - generic [ref=e99]:
+                    - text: Playwright
+                    - mark [ref=e100]: Test
+                    - text: Agents
+        - generic [ref=e102]:
+          - generic [ref=e103]: Guides
+          - listbox "Search" [ref=e104]:
+            - option "Debugging Tests" [ref=e105]:
+              - link "Debugging Tests" [ref=e106] [cursor=pointer]:
+                - /url: /docs/debug
+                - generic [ref=e107]:
+                  - img [ref=e109]
+                  - generic [ref=e112]:
+                    - text: Debugging
+                    - mark [ref=e113]: Test
+                    - text: s
+            - option "Test generator" [ref=e115]:
+              - link "Test generator" [ref=e116] [cursor=pointer]:
+                - /url: /docs/codegen
+                - generic [ref=e117]:
+                  - img [ref=e119]
+                  - generic [ref=e122]:
+                    - mark [ref=e123]: Test
+                    - text: generator
+            - option "Snapshot testing" [ref=e125]:
+              - link "Snapshot testing" [ref=e126] [cursor=pointer]:
+                - /url: /docs/aria-snapshots
+                - generic [ref=e127]:
+                  - img [ref=e129]
+                  - generic [ref=e132]:
+                    - text: Snapshot
+                    - mark [ref=e133]: test
+                    - text: ing
+        - generic [ref=e135]:
+          - generic [ref=e136]: Test Runner
+          - listbox "Search" [ref=e137]:
+            - option "TestStepInfo" [ref=e138]:
+              - link "TestStepInfo" [ref=e139] [cursor=pointer]:
+                - /url: /docs/api/class-teststepinfo
+                - generic [ref=e140]:
+                  - img [ref=e142]
+                  - generic [ref=e145]:
+                    - mark [ref=e146]: Test
+                    - text: StepInfo
+            - option "TestProject" [ref=e148]:
+              - link "TestProject" [ref=e149] [cursor=pointer]:
+                - /url: /docs/api/class-testproject
+                - generic [ref=e150]:
+                  - img [ref=e152]
+                  - generic [ref=e155]:
+                    - mark [ref=e156]: Test
+                    - text: Project
+            - option "TestOptions" [ref=e158]:
+              - link "TestOptions" [ref=e159] [cursor=pointer]:
+                - /url: /docs/api/class-testoptions
+                - generic [ref=e160]:
+                  - img [ref=e162]
+                  - generic [ref=e165]:
+                    - mark [ref=e166]: Test
+                    - text: Options
+            - option "TestInfoError" [ref=e168]:
+              - link "TestInfoError" [ref=e169] [cursor=pointer]:
+                - /url: /docs/api/class-testinfoerror
+                - generic [ref=e170]:
+                  - img [ref=e172]
+                  - generic [ref=e175]:
+                    - mark [ref=e176]: Test
+                    - text: InfoError
+            - option "TestInfo" [ref=e178]:
+              - link "TestInfo" [ref=e179] [cursor=pointer]:
+                - /url: /docs/api/class-testinfo
+                - generic [ref=e180]:
+                  - img [ref=e182]
+                  - generic [ref=e185]:
+                    - mark [ref=e186]: Test
+                    - text: Info
+        - generic [ref=e188]:
+          - generic [ref=e189]: Test Reporter
+          - listbox "Search" [ref=e190]:
+            - option "TestStep" [ref=e191]:
+              - link "TestStep" [ref=e192] [cursor=pointer]:
+                - /url: /docs/api/class-teststep
+                - generic [ref=e193]:
+                  - img [ref=e195]
+                  - generic [ref=e198]:
+                    - mark [ref=e199]: Test
+                    - text: Step
+            - option "TestResult" [ref=e201]:
+              - link "TestResult" [ref=e202] [cursor=pointer]:
+                - /url: /docs/api/class-testresult
+                - generic [ref=e203]:
+                  - img [ref=e205]
+                  - generic [ref=e208]:
+                    - mark [ref=e209]: Test
+                    - text: Result
+            - option "TestError" [ref=e211]:
+              - link "TestError" [ref=e212] [cursor=pointer]:
+                - /url: /docs/api/class-testerror
+                - generic [ref=e213]:
+                  - img [ref=e215]
+                  - generic [ref=e218]:
+                    - mark [ref=e219]: Test
+                    - text: Error
+            - option "TestCase" [ref=e221]:
+              - link "TestCase" [ref=e222] [cursor=pointer]:
+                - /url: /docs/api/class-testcase
+                - generic [ref=e223]:
+                  - img [ref=e225]
+                  - generic [ref=e228]:
+                    - mark [ref=e229]: Test
+                    - text: Case
+        - link "See all 1306 results" [ref=e232] [cursor=pointer]:
+          - /url: /search?q=test
+      - contentinfo [ref=e233]:
+        - link "Search by Algolia" [ref=e235] [cursor=pointer]:
+          - /url: https://www.algolia.com/ref/docsearch/?utm_source=playwright.dev&utm_medium=referral&utm_content=powered_by&utm_campaign=docsearch
+          - generic [ref=e236]: Search by
+          - img "Algolia" [ref=e237]
+        - list [ref=e247]:
+          - listitem [ref=e248]:
+            - img "Enter key" [ref=e250]
+            - generic [ref=e253]: to select
+          - listitem [ref=e254]:
+            - img "Arrow down" [ref=e256]
+            - img "Arrow up" [ref=e260]
+            - generic [ref=e263]: to navigate
+          - listitem [ref=e264]:
+            - img "Escape key" [ref=e266]
+            - generic [ref=e269]: to close
+  - generic [ref=e270]:
+    - region "Skip to main content":
+      - link "Skip to main content" [ref=e271] [cursor=pointer]:
+        - /url: "#__docusaurus_skipToContent_fallback"
+    - navigation "Main" [ref=e272]:
+      - generic [ref=e273]:
+        - generic [ref=e274]:
+          - link "Playwright logo Playwright" [ref=e275] [cursor=pointer]:
+            - /url: /
+            - img "Playwright logo" [ref=e277]
+            - generic [ref=e278]: Playwright
+          - link "Docs" [ref=e279] [cursor=pointer]:
+            - /url: /docs/intro
+          - link "API" [ref=e280] [cursor=pointer]:
+            - /url: /docs/api/class-playwright
+          - button "Node.js" [ref=e282] [cursor=pointer]
+          - link "Community" [ref=e283] [cursor=pointer]:
+            - /url: /community/welcome
+        - generic [ref=e284]:
+          - link "GitHub repository" [ref=e285] [cursor=pointer]:
+            - /url: https://github.com/microsoft/playwright
+          - link "Discord server" [ref=e286] [cursor=pointer]:
+            - /url: https://aka.ms/playwright/discord
+          - button "Switch between dark and light mode (currently system mode)" [ref=e288] [cursor=pointer]:
+            - img [ref=e289]
+          - button "Search (Ctrl+K)" [ref=e292] [cursor=pointer]:
+            - generic [ref=e293]:
+              - img [ref=e294]
+              - generic [ref=e296]: Search
+            - generic [ref=e297]:
+              - img [ref=e299]
+              - generic [ref=e301]: K
+    - generic [ref=e302]:
+      - banner [ref=e303]:
+        - generic [ref=e304]:
+          - heading "Playwright enables reliable end-to-end testing for modern web apps." [level=1] [ref=e305]
+          - generic [ref=e306]:
+            - link "Get started" [ref=e307] [cursor=pointer]:
+              - /url: /docs/intro
+            - generic [ref=e308]:
+              - link "Star microsoft/playwright on GitHub" [ref=e309] [cursor=pointer]:
+                - /url: https://github.com/microsoft/playwright
+                - text: Star
+              - link "81k+ stargazers on GitHub" [ref=e311] [cursor=pointer]:
+                - /url: https://github.com/microsoft/playwright/stargazers
+                - text: 81k+
+      - main [ref=e312]:
+        - img "Browsers (Chromium, Firefox, WebKit)" [ref=e314]
+        - generic [ref=e317]:
+          - generic [ref=e318]:
+            - heading "Any browser • Any platform • One API" [level=3] [ref=e319]
+            - generic [ref=e320]:
+              - paragraph [ref=e321]: Cross-browser. Playwright supports all modern rendering engines including Chromium, WebKit, and Firefox.
+              - paragraph [ref=e322]: Cross-platform. Test on Windows, Linux, and macOS, locally or on CI, headless or headed.
+              - paragraph [ref=e323]:
+                - text: Cross-language. Use the Playwright API in
+                - link "TypeScript" [ref=e324] [cursor=pointer]:
+                  - /url: https://playwright.dev/docs/intro
+                - text: ","
+                - link "JavaScript" [ref=e325] [cursor=pointer]:
+                  - /url: https://playwright.dev/docs/intro
+                - text: ","
+                - link "Python" [ref=e326] [cursor=pointer]:
+                  - /url: https://playwright.dev/python/docs/intro
+                - text: ","
+                - link ".NET" [ref=e327] [cursor=pointer]:
+                  - /url: https://playwright.dev/dotnet/docs/intro
+                - text: ","
+                - link "Java" [ref=e328] [cursor=pointer]:
+                  - /url: https://playwright.dev/java/docs/intro
+                - text: .
+              - paragraph [ref=e329]: Test Mobile Web. Native mobile emulation of Google Chrome for Android and Mobile Safari. The same rendering engine works on your Desktop and in the Cloud.
+          - generic [ref=e330]:
+            - heading [level=3]
+          - generic [ref=e331]:
+            - heading [level=3]
+          - generic [ref=e332]:
+            - heading "Resilient • No flaky tests" [level=3] [ref=e333]
+            - generic [ref=e334]:
+              - paragraph [ref=e335]: Auto-wait. Playwright waits for elements to be actionable prior to performing actions. It also has a rich set of introspection events. The combination of the two eliminates the need for artificial timeouts - the primary cause of flaky tests.
+              - paragraph [ref=e336]: Web-first assertions. Playwright assertions are created specifically for the dynamic web. Checks are automatically retried until the necessary conditions are met.
+              - paragraph [ref=e337]: Tracing. Configure test retry strategy, capture execution trace, videos, screenshots to eliminate flakes.
+          - generic [ref=e338]:
+            - heading "No trade-offs • No limits" [level=3] [ref=e339]
+            - generic [ref=e340]:
+              - paragraph [ref=e341]: Browsers run web content belonging to different origins in different processes. Playwright is aligned with the modern browsers architecture and runs tests out-of-process. This makes Playwright free of the typical in-process test runner limitations.
+              - paragraph [ref=e342]: Multiple everything. Test scenarios that span multiple tabs, multiple origins and multiple users. Create scenarios with different contexts for different users and run them against your server, all in one test.
+              - paragraph [ref=e343]: Trusted events. Hover elements, interact with dynamic controls, produce trusted events. Playwright uses real browser input pipeline indistinguishable from the real user.
+              - paragraph [ref=e344]: Test frames, pierce Shadow DOM. Playwright selectors pierce shadow DOM and allow entering frames seamlessly.
+          - generic [ref=e345]:
+            - heading [level=3]
+          - generic [ref=e346]:
+            - heading [level=3]
+          - generic [ref=e347]:
+            - heading "Full isolation • Fast execution" [level=3] [ref=e348]
+            - generic [ref=e349]:
+              - paragraph [ref=e350]: Browser contexts. Playwright creates a browser context for each test. Browser context is equivalent to a brand new browser profile. This delivers full test isolation with zero overhead. Creating a new browser context only takes a handful of milliseconds.
+              - paragraph [ref=e351]: Log in once. Save the authentication state of the context and reuse it in all the tests. This bypasses repetitive log-in operations in each test, yet delivers full isolation of independent tests.
+          - generic [ref=e352]:
+            - heading "Powerful Tooling" [level=3] [ref=e353]
+            - generic [ref=e354]:
+              - paragraph [ref=e355]:
+                - link "Codegen." [ref=e357] [cursor=pointer]:
+                  - /url: docs/codegen
+                - text: Generate tests by recording your actions. Save them into any language.
+              - paragraph [ref=e358]:
+                - link "Playwright inspector." [ref=e360] [cursor=pointer]:
+                  - /url: docs/debug#playwright-inspector
+                - text: Inspect page, generate selectors, step through the test execution, see click points, explore execution logs.
+              - paragraph [ref=e361]:
+                - link "Trace Viewer." [ref=e363] [cursor=pointer]:
+                  - /url: docs/trace-viewer-intro
+                - text: Capture all the information to investigate the test failure. Playwright trace contains test execution screencast, live DOM snapshots, action explorer, test source, and many more.
+        - generic [ref=e367]:
+          - heading "Chosen by companies and open source projects" [level=2] [ref=e368]
+          - list [ref=e369]:
+            - listitem [ref=e370]:
+              - link "VS Code" [ref=e371] [cursor=pointer]:
+                - /url: https://code.visualstudio.com
+                - img "VS Code" [ref=e372]
+            - listitem [ref=e373]:
+              - link "Bing" [ref=e374] [cursor=pointer]:
+                - /url: https://bing.com
+                - img "Bing" [ref=e375]
+            - listitem [ref=e376]:
+              - link "Outlook" [ref=e377] [cursor=pointer]:
+                - /url: https://outlook.com
+                - img "Outlook" [ref=e378]
+            - listitem [ref=e379]:
+              - link "Disney+ Hotstar" [ref=e380] [cursor=pointer]:
+                - /url: https://www.hotstar.com/
+                - img "Disney+ Hotstar" [ref=e381]
+            - listitem [ref=e382]:
+              - link "Material UI" [ref=e383] [cursor=pointer]:
+                - /url: https://github.com/mui-org/material-ui
+                - img "Material UI" [ref=e384]
+            - listitem [ref=e385]:
+              - link "ING" [ref=e386] [cursor=pointer]:
+                - /url: https://github.com/ing-bank/lion
+                - img "ING" [ref=e387]
+            - listitem [ref=e388]:
+              - link "Adobe" [ref=e389] [cursor=pointer]:
+                - /url: https://github.com/adobe/spectrum-web-components
+                - img "Adobe" [ref=e390]
+            - listitem [ref=e391]:
+              - link "React Navigation" [ref=e392] [cursor=pointer]:
+                - /url: https://github.com/react-navigation/react-navigation
+                - img "React Navigation" [ref=e393]
+            - listitem [ref=e394]:
+              - link "Accessibility Insights" [ref=e395] [cursor=pointer]:
+                - /url: https://accessibilityinsights.io/
+                - img "Accessibility Insights" [ref=e396]
+    - contentinfo [ref=e397]:
+      - generic [ref=e398]:
+        - generic [ref=e399]:
+          - generic [ref=e400]:
+            - generic [ref=e401]: Learn
+            - list [ref=e402]:
+              - listitem [ref=e403]:
+                - link "Getting started" [ref=e404] [cursor=pointer]:
+                  - /url: /docs/intro
+              - listitem [ref=e405]:
+                - link "Playwright Training" [ref=e406] [cursor=pointer]:
+                  - /url: https://learn.microsoft.com/en-us/training/modules/build-with-playwright/
+                  - text: Playwright Training
+                  - img [ref=e407]
+              - listitem [ref=e409]:
+                - link "Learn Videos" [ref=e410] [cursor=pointer]:
+                  - /url: /community/learn-videos
+              - listitem [ref=e411]:
+                - link "Feature Videos" [ref=e412] [cursor=pointer]:
+                  - /url: /community/feature-videos
+          - generic [ref=e413]:
+            - generic [ref=e414]: Community
+            - list [ref=e415]:
+              - listitem [ref=e416]:
+                - link "Stack Overflow" [ref=e417] [cursor=pointer]:
+                  - /url: https://stackoverflow.com/questions/tagged/playwright
+                  - text: Stack Overflow
+                  - img [ref=e418]
+              - listitem [ref=e420]:
+                - link "Discord" [ref=e421] [cursor=pointer]:
+                  - /url: https://aka.ms/playwright/discord
+                  - text: Discord
+                  - img [ref=e422]
+              - listitem [ref=e424]:
+                - link "Twitter" [ref=e425] [cursor=pointer]:
+                  - /url: https://twitter.com/playwrightweb
+                  - text: Twitter
+                  - img [ref=e426]
+              - listitem [ref=e428]:
+                - link "LinkedIn" [ref=e429] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/playwrightweb
+                  - text: LinkedIn
+                  - img [ref=e430]
+          - generic [ref=e432]:
+            - generic [ref=e433]: More
+            - list [ref=e434]:
+              - listitem [ref=e435]:
+                - link "GitHub" [ref=e436] [cursor=pointer]:
+                  - /url: https://github.com/microsoft/playwright
+                  - text: GitHub
+                  - img [ref=e437]
+              - listitem [ref=e439]:
+                - link "YouTube" [ref=e440] [cursor=pointer]:
+                  - /url: https://www.youtube.com/channel/UC46Zj8pDH5tDosqm1gd7WTg
+                  - text: YouTube
+                  - img [ref=e441]
+              - listitem [ref=e443]:
+                - link "Blog" [ref=e444] [cursor=pointer]:
+                  - /url: https://dev.to/playwright
+                  - text: Blog
+                  - img [ref=e445]
+              - listitem [ref=e447]:
+                - link "Ambassadors" [ref=e448] [cursor=pointer]:
+                  - /url: /community/ambassadors
+        - generic [ref=e450]: Copyright © 2026 Microsoft
+```

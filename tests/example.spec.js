@@ -27,5 +27,5 @@ test('search functionality', async ({ page }) => {
   await page.getByPlaceholder('Search docs').fill('test');
 
   // Expect search results to appear.
-  await expect(page.getByText('Search results for: test')).toBeVisible();
+  await expect(page.locator('[role="option"]').first()).toBeVisible();
 });

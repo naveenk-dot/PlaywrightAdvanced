@@ -31,7 +31,10 @@ jobs:
         run: npm test
 
       - name: Run BDD tests
-        run: npm run test:bdd -- --format html --out cucumber-report.html
+        run: npm run test:bdd -- --format html:cucumber-report.html
+
+      - name: List files
+        run: ls -la
 
       - name: Upload Playwright report
         if: always()
